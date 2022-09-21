@@ -69,7 +69,7 @@ print(5 in set1)
 set0 = {1, 2, "three", "four"}
 
 set01 = {"three", 4, 5}
-set3 = set0.union(set01)
+set3 = set01.union(set0)
 print(set3)
 print(set3)
 # Remove a random item from the following set, using set methods.
@@ -87,8 +87,8 @@ print(raffle)
 #################################################booleans######################################################
 # booleans
 # a boolean can only have 2 values -- true or False
-# my_bool = 5 > 4
-#print(my_bool)
+my_bool = 5 > 4
+print(my_bool)
 
 # > greater
 # < less
@@ -97,20 +97,25 @@ print(raffle)
 # == equal
 # != different or not equal to
 
-# you can also construct booleans to see if values ar in a variable or not found
-# my_ bool = 5 in my_list
-# my_bool = 5 not in my_list
-
-# so we can see if we can make logical decisions if something is true or not
-# var1 = True
+# you can also construct booleans to see 
+#if values are in a variable or not found
+#my_list = [1,2,3,4,5]
+#my_ bool = 5 in my_list
+#my_bool = 5 not in my_list
+#my_num =54
+#my_num2 = 2223
+#my_result = my_num2 == my_num
+#print(my_result)
+ #so we can see if we can make logical decisions if something is true or not
+#  var1 = True
 # var2 = False
 # print(type(var1))
 # print(var1)
 
-# list = [1,2,3,4,5,6]
-# control = 5 in list
-# print(type(control))
-# print(control)
+list = [1,2,3,4,5,6]
+control = 5 in list
+print(type(control))
+print(control)
 
 # Booleans Practice
 
@@ -119,7 +124,10 @@ print(raffle)
 # Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using print()
 
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
-
+my_num = 25
+my_num2 = 5
+my_result= my_num== my_num2
+print(my_result)
 
 
 #############################################next week ################################################
